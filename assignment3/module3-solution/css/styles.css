@@ -1,0 +1,35 @@
+#main-text {
+	background-color: #888888;
+}
+#header-nav {
+	background-color: #666666;
+}
+#header-nav h3 {
+	color: black;
+	margin-top: 15px;
+}
+.navbar-brand {
+    padding: 0px 15px;
+}
+.navbar {
+	border: 0px;
+	border-radius: 0px;
+}
+#main-content h1 {
+	margin-bottom: 30px;
+}
+#nav-list {
+	background-color: #eee;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+    #main-content {
+		width: 78%;
+    }
+}
+@media (min-width: 768px) {
+    #main-content {
+		width: 100%;
+    }
+}
